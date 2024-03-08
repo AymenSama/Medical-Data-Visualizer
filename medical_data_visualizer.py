@@ -25,7 +25,7 @@ def draw_cat_plot():
 
 
     # Get the figure for the output
-    fig = sns.catplot(data=df_cat, x="variable", y="total", col="cardio", hue="value", kind="bar").fig
+    fig = sns.catplot(data=df_cat, x="variable", y="total", col="cardio", hue="value", kind="bar").figure
 
 
     # Do not modify the next two lines
